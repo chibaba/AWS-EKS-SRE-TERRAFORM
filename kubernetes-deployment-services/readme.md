@@ -200,7 +200,7 @@ http://54.165.248.51:31280
 - Go to the Security Group (Example Name: sg-027936abd2a182f76 - eks-remoteAccess-d6beab70-4407-dbc7-9d1f-80721415bd90)
 - Remove the NodePort Rule which we added.
 
-## Step-11: Clean-Up
+## Step-11: Clean-Up our configuration
 ```t
 # Undeploy Application
 kubectl delete -f kube-manifests/
